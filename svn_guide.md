@@ -21,7 +21,7 @@ For each assignment you will create a subdirectory in your ```cs112``` directory
 1. Before you begin work on an assignment, use the terminal to ```cd``` into the ```cs112``` directory. 
 2. **Create a new directory:** Use the ```mkdir``` (make directory) command to create a new directory for the assignment, for example ```mkdir lab1```.
 3. **Save code in the new directory:**```cd``` into the appropriate assignment directory and create the necessary Java files for the assignment. 
-4. **Add all directories and files:** For every major code change (*not just when you are ready to submit*), add all files and directories you wish to commit. 
+4. **Add all directories and files:** For every major code change (*not just when you are ready to submit*), add all files and directories you wish to commit. *You do not need to add the ```.class``` files.*
   - If you have not yet added the directory, ```cd``` into the ```cs112``` directory and type ```svn add <assignment>/```, replacing assignment with ```lab1```, ```project2```, or the appropriate name. This will add the directory and all files in the directory and will display something like the following:  
    
   ```
