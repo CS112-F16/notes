@@ -27,7 +27,7 @@ Many programmers use Integrated Development Environments (IDEs), like [Eclipse](
 
 ## Syntax Highlights
 
-- A Java program consists of one or more *classes*. A class named ```X``` must be stored in a file named ```X.java```.
+- **Classes** - A Java program consists of one or more classes. A class named ```X``` must be stored in a file named ```X.java```.
 - **Comments** - There are two ways to comment your code in Java. The first option is to use ```//```. In this case, the comment begins with the ```//``` and continues until the end of the line.
 
 ```java
