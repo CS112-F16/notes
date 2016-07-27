@@ -25,3 +25,46 @@ Writing and running a Java program involves three steps:
 Many programmers use Integrated Development Environments (IDEs), like [Eclipse](https://eclipse.org/), to write code. IDEs make some things easier, but hide details that are important to understand. For now, you will not use an IDE to develop your Java code.
 
 
+## Syntax Highlights
+
+- A Java program consists of one or more *classes*. A class named ```X``` must be stored in a file named ```X.java```.
+- **Comments** - There are two ways to comment your code in Java. The first option is to use ```//```. In this case, the comment begins with the ```//``` and continues until the end of the line.
+
+```java
+//declare a variable a
+int a; 
+a = 4; //initialize a to the value four
+```
+The second option is to use ```/*``` and ```*/```. These symbols allow for multi-line comments. 
+
+```java
+/*
+ * declare a variable a and
+ * initialize it to four
+ */
+int a = 4;
+```
+
+- **Statements** - All Java statements end with a semi-colon ```;```.
+- **Curly Braces** - Code blocks are surrounded by curly braces ```{}```. This applies to if statements, loops, classes, and methods.
+
+```java
+class X {
+    //class definition
+}
+
+if (condition) {
+    //body of if
+}
+
+while (condition) {
+    //body of while
+}
+
+void method() {
+    //body of method
+}
+```
+
+- **Whitespace** - White space is irrelevant in Java. Though you should make sure your code is properly indented (in order to get a good grade!) the compiler does not care.
+- **Keywords** - Java keywords include ```class return break continue try catch public private package import```. See the [Java Tutorials - Java Language Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) page for a full list.
