@@ -3,7 +3,9 @@ Variables
 
 ## Strong Typing
 
-"The Java programming language is a strongly typed language, which means that every variable and every expression has a type that is known at compile time." - Java Language Specification, Third Edition
+> The Java programming language is a strongly typed language, which means that every variable and every expression has a type that is known at compile time.
+
+Java Language Specification, Third Edition
 
 
 Each variable is given a type when it is declared.  A variable may not be assigned a value that is not of the type specified.  Types are checked at compile time and errors (as shown below) are reported.
