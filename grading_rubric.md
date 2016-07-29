@@ -3,8 +3,7 @@ Grading Rubric
 
 The rubric that will be used to grade most of your programming assignments is as follows:
 
-<table width=100%>
-
+<table>
 	<tr>
 		<td><strong>Criterion</strong></td>
 		<td><strong>Percentage of Points Awarded</strong></td>
@@ -27,7 +26,7 @@ The rubric that will be used to grade most of your programming assignments is as
 	</tr>	
 	<tr>
 		<td></td>
-		<td>75%</td>;
+		<td>75%</td>
 		<td>All Java files submitted as part of the program compile without error. The program runs, passes all test cases, and no logic errors are found.</td>
 	</tr>	
 	<tr>
