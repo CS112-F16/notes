@@ -17,17 +17,17 @@ The rubric that will be used to grade most of your programming assignments is as
 	</tr>	
 	<tr>
 		<td></td>
-		<td>65%</td>
+		<td>50%</td>
 		<td>All Java files submitted as part of the program compile without error. The program runs and passes some test cases but contains significant logic errors.</td>
 	</tr>	
 	<tr>
 		<td></td>
-		<td>70%</td>
+		<td>65%</td>
 		<td>All Java files submitted as part of the program compile without error. The program runs and passes most test cases but contains a few logic errors. </td>
 	</tr>	
 	<tr>
 		<td></td>
-		<td>75%</td>
+		<td>75%</td>;
 		<td>All Java files submitted as part of the program compile without error. The program runs, passes all test cases, and no logic errors are found.</td>
 	</tr>	
 	<tr>
@@ -62,11 +62,11 @@ Here are some examples to illustrate how this rubric will be applied:
 
 **Example 2** - A program worth 100 total points compiles and passes almost all test cases. The code submitted is very well designed and follows the style guidelines. The user interface meets the specifications but is somewhat confusing to use.
 
-- Solution: 70/75 points
+- Solution: 65/75 points
 - Design: 10/10 points
 - Style: 10/10 points
 - Interface: 2.5/5 points
-- Total: 92.5/100 points
+- Total: 87.5/100 points
 
 **Example 3** - A program worth 100 total points compiles and passes all test cases. The code submitted is very well designed but is not indented properly, uses poorly chosen variable names, and lacks documentation. The user interface meets the specifications and is natural for the user.
 
