@@ -23,10 +23,10 @@ Your code is expected to follow the guidelines below. If you do not follow these
 9. Make sure use proper indentation in all classes.
  - In Sublime, you can create a key binding that will allow you to select all text and use the binding to indent the selected code properly. 
  - I use ```command-i``` for indentation and created the binding as follows: ```Sublime Text > Preferences > Key Bindings - User```. Add the text below and save:
-```
+`
 [
     { "keys": ["command+i"], "command": "reindent"} 
 ]
-```
+`
 10. Do not catch unchecked exceptions unless there is a very good reason. Instead, try to use conditionals appropriately to avoid unchecked (e.g., NullPointer) exceptions.
 11. Do not replicate code unless there is a very good reason.
