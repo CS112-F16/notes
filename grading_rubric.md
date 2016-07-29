@@ -7,7 +7,7 @@ The rubric that will be used to grade most of your programming assignments is as
 
 	<tr>
 		<td><strong>Criterion</strong></td>
-		<td><strong>Percentage of Total Score</strong></td>
+		<td><strong>Percentage of Points Awarded</strong></td>
 		<td><strong>Description</strong></td>
 	</tr>
 	<tr>
