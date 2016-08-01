@@ -33,11 +33,11 @@ The rubric that will be used to grade most of your programming assignments is as
 	</tr>	
 	<tr>
 		<td align="right">5%</td>
-		<td>The code exhibits elements of good design but contains some poorly designed components.</td>
+		<td>The code exhibits elements of good design but contains some poorly designed  or inefficient components.</td>
 	</tr>	
 	<tr>
 		<td align="right">7.5%</td>
-		<td>The code is reasonably well designed with some minor flaws.</td>
+		<td>The code is reasonably well designed with some minor flaws in design or efficiency.</td>
 	</tr>	
 	<tr>
 		<td align="right">10%</td>
