@@ -65,5 +65,10 @@ int x = Integer.parseInt(s);
 
 ## The `split` Method
 
-The `split` method can be used to divide a String into several substrings. It takes as input a *regular expression* denoting the how the string should be split and returns an array of Strings. In the simplest case, the expression is a character denoting the delimiter to be used. The following example splits the String around the colon. The result is an array of Strings - [a,b,c]. Note that the delimiter is removed from the result.
+The `split` method can be used to divide a String into several substrings. It takes as input a *regular expression* denoting the how the string should be split and returns an array of Strings. In the simplest case, the expression is a character denoting the delimiter to be used. The following example splits the String around the colon. The result is an array of Strings - `[a,b,c]`. Note that the delimiter is removed from the result.
+
+```java
+String s = "a:b:c";
+String[] splitString = s.split(":");
+```
 
