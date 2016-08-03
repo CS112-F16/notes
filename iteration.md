@@ -74,7 +74,7 @@ while(i != 0) {
 }
 ```
 
-## `do-while`
+## `do`
 
 While a `for` loop can be translated to a `while` and vice versa, a `do` loop operates differently.  A `do` loop always executes at least once.  The syntax for a `do` loop is as follows:
 
@@ -85,3 +85,24 @@ do {
 ```
 
 Because you know the body of the loop will execute at least once, you can initialize your control variable in the same place where you update it. 
+
+## Iterators
+
+A common operation is traversal of all elements of a collection.  An iterator is an object that allows you to do so in a simple way.
+
+The `java.util.Iterator` interface provides the following methods:
+
+- `boolean hasNext()` - Returns true if the iteration has more elements.
+- `E next()` - Returns the next element in the iteration.
+- `void remove()` - Removes from the underlying collection the last element returned by the iterator (optional operation).
+
+The `java.util.Scanner` class is an example of a class that implements the `Iterator` interface. The following piece of code reads the text of a file one word at a time.
+
+```java
+java.util.Scanner s = new java.util.Scanner(new java.io.File("test.txt"));
+while(s.hasNext()) { 
+ System.out.println(s.next());
+}
+```
+
+Notice that the example uses the fully qualified names for the `Scanner` and `File`. This obviates the need to import `java.util` and `java.io` at the top of the class.
