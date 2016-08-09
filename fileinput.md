@@ -2,15 +2,15 @@ File Input, Exceptions, and Command Line Arguments
 =================
 
 
-There are several ways to get input from and save output to files in Java. The [Java I/O Tutorial](http://docs.oracle.com/javase/tutorial/essential/io/index.html) provides extensive information about the [java.io](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html) package. In this document we will look at how to use the [`Scanner`](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) class to read text from a file. The tutorials provide more information about reading in binary data, for example image files, as well as more efficient ways to read text from a file.
+There are several ways to get input from files in Java. The [Java I/O Tutorial](http://docs.oracle.com/javase/tutorial/essential/io/index.html) provides extensive information about the [java.io](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html) package. In this document we will look at how to use the [`Scanner`](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) class to read text from a file. The tutorials provide more information about reading in binary data, for example image files, as well as more efficient ways to read text from a file.
 
-To understand file input and output it is also important to understand how [exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/) work in Java. 
+To understand file input it is also important to understand how [exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/) work in Java. 
 
 ## Search and Replace Example
 
 This document will discuss the following example that reads a text file and prints the text found replacing all instances of a *search* term with a *replace* term. The example with complete documentation may be found here: [SearchAndReplace.java](https://github.com/CS112-F16/code/blob/master/GeneralExamples/SearchAndReplace.java).
 
-```
+```java
 import java.io.File;
 import java.io.FileNotFoundException;
 
