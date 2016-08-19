@@ -50,7 +50,7 @@ The rubric that will be used to grade most of your programming assignments is as
 	</tr>	
 	<tr>
 		<td align="right">5%</td>
-		<td>The code two or fewer of the <a href="https://github.com/CS112-F16/notes/blob/master/style.md">Style Guidelines</a>.</td>
+		<td>The code violates two or fewer of the <a href="https://github.com/CS112-F16/notes/blob/master/style.md">Style Guidelines</a>.</td>
 	</tr>	
 	<tr>
 		<td align="right">10%</td>
