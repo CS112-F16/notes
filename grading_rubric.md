@@ -63,7 +63,7 @@ The rubric that will be used to grade most of your programming assignments is as
 	</tr>	
 	<tr>
 		<td align="right">5%</td>
-		<td>The user interface is meets the specifications and is natural for the user.</td>
+		<td>The user interface meets the specifications and is natural for the user.</td>
 	</tr>	
 	
 
