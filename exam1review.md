@@ -30,7 +30,7 @@ You may be asked to define a term; explain a concept; answer a short-answer, mul
 * Strings
  - common methods
  - escape sequences
-*`ArrayList`
+* `ArrayList`
  - common methods
  - iteration over
 * File Input
