@@ -36,7 +36,7 @@ The `LinkedList` class will maintain appropriate references to the data stored i
 
 Inserting at the head of a `LinkedList`:
 
-![ll2](images/ll2.pdf)
+![ll2](images/ll2.jpg)
 
 1. Set the `next` reference of the new node to the node that `head` refers to 
   - `newNode.setNext(head)`
@@ -124,7 +124,7 @@ Notice that the delete tail operation iterates through the entire list. This req
 
 To insert in an arbitrary position in a linked list, for example in order to maintain a sorted list, you must find the node that comes before the node you wish to insert (`previous`) as shown below:
 
-![ll3](images/ll3.pdf)
+![ll3](images/ll3.jpg)
 
 You can then execute the following algorithm:
 
