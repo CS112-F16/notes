@@ -11,7 +11,7 @@ A linked list is a data structure that can store a collection of items. Like arr
 
 Linked lists are typically depicted as follows:
 
-![ll1](images/ll1.pdf)
+![ll1](images/ll1.jpg)
 
 Each element of the list is referred to as a *node*. Each node contains an appropriately typed`Object` that represents the data stored in the node and a reference to the *next* node in the list. The last node in the list refers to `null`.
 
